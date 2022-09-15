@@ -1,0 +1,36 @@
+video {
+    width: 450px;
+    height: 300px;
+  }
+  embed{
+    height:300px;
+    width:450px;
+  }
+  body{
+      background-color: rgb(153, 241, 241);
+      text-align: center;
+  }
+
+
+  ul {
+    display: flex;
+    list-style: none;    
+    justify-content: space-around; 
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 30px; 
+    color: blueviolet;
+  }
+  
+  a:hover {
+    background-color: rgb(139, 135, 135);
+    border-radius: 5px;
+  }
+  
+  img,video,embed {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    margin-bottom: 20px;
+  }
